@@ -42,6 +42,12 @@ advanced-port-scanner/
 └── reports/
     └── scan_results.csv
 
+## Successful Scan
+
+The scanner was tested against a local authorized HTTP server running on `127.0.0.1:8080`.
+
+![Successful TCP Port Scan](successful-scan.png)
+
 ## Installation
 
 Clone the repository:
