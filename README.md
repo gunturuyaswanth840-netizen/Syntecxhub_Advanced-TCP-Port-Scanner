@@ -48,6 +48,33 @@ The scanner was tested against a local authorized HTTP server running on `127.0.
 
 ![Successful TCP Port Scan](successful-scan.png)
 
+## Sample Output
+
+```text
+Target: 127.0.0.1
+Port Range: 8075-8085
+Threads: 50
+Timeout: 1.0s
+
+PORT     STATUS    SERVICE
+8075     CLOSED    -
+8076     CLOSED    -
+8077     CLOSED    -
+8078     CLOSED    -
+8079     CLOSED    -
+8080     OPEN      http
+8081     CLOSED    -
+8082     CLOSED    -
+8083     CLOSED    -
+8084     CLOSED    -
+8085     CLOSED    -
+
+Open Ports: 1
+Closed Ports: 10
+Timeouts: 0
+Errors: 0
+
+
 ## Installation
 
 Clone the repository:
